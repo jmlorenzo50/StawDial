@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attack Wing Dial</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_dial_sel">Attack Wing Dial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dial_new_ship">Attack Wing Dial</string>
+    <string name="dial">Dial</string>
+    <string name="edit">Editar</string>
+    <string name="newdial">Dial Nuevo</string>
+    <string name="scandial">Escanear Dial</string>
+    <string name="left">Izquierda</string>
+    <string name="right">Derecha</string>
+    <string name="random">Azar</string>
+    <string name="ship_name">Nombre de la nave:</string>
+    <string name="crud_dial">CRUD Dial</string>
+    <string name="undo">Deshacer</string>
+    <string name="undobar_sample_message">Acción realizada.</string>
+    <string name="maximum">Máximo número de diales es 21</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+ 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/point" 
+        android:contentDescription="@string/dial">
+    </ImageView>
+ 
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.97"
+        android:text="@+id/label"
+        style="@style/fuente"
+        >
+
+    </TextView>
+
+	<include layout="@layout/dialmove"
+	         style="@style/boton"
+             android:layout_width="32dp"
+		     android:layout_height="22dp"
+		     android:layout_gravity="center_vertical"
+	/>
+    	
+    <ImageButton
+        android:id="@+id/btnscan"
+        android:onClick="scanDial"
+        android:src="@drawable/scanoff"
+        android:contentDescription="@string/scandial"
+        style="@style/boton"
+     />
+
+    <ImageButton
+        android:id="@+id/btneliminar"
+        android:onClick="addDial"
+        android:src="@drawable/dialdel"
+        android:contentDescription="@string/edit"
+        style="@style/boton"
+     />
+ 
+</LinearLayout>

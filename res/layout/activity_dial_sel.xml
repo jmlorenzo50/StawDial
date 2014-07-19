@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maximum"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"       
+		android:textSize="20sp" />
+    
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:scrollbars="vertical"
+        android:layout_below="@+id/textView1"
+        android:layout_above="@+id/botonera"
+        >
+    </ListView>
+
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/botonera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" 
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+        
+        style="@style/botonera">
+	    <ImageButton
+	        android:id="@+id/btnAdd"
+	        android:onClick="addDial"
+	        android:src="@drawable/dialadd"
+	        android:contentDescription="@string/newdial"
+	        style="@style/boton"
+	     />
+        <ImageButton
+            android:id="@+id/btnrandom"
+            android:contentDescription="@string/random"
+            android:onClick="lanzar"
+            android:src="@drawable/arrow_random" 
+            style="@style/boton"
+        />
+	    <ImageButton
+	        android:id="@+id/btnTapAll"
+	        android:onClick="tapAllDial"
+	        android:src="@drawable/scanoff"
+	        android:contentDescription="@string/random"
+	        style="@style/boton"
+	     />
+        
+    </LinearLayout>
+    
+    
+   	<LinearLayout android:id="@+id/undobar" style="@style/UndoBar" android:layout_alignParentBottom="true">
+        <TextView android:id="@+id/undobar_message" style="@style/UndoBarMessage" />
+        <Button android:id="@+id/undobar_button" style="@style/UndoBarButton" />
+    </LinearLayout>
+    
+    
+
+
+</RelativeLayout>

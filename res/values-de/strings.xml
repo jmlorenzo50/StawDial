@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attack Wing Dial</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dial_sel">Attack Wing Dial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dial_new_ship">Attack Wing Dial</string>
+    <string name="dial">Dial</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="newdial">New Dial</string>
+    <string name="scandial">New Dial</string>
+    <string name="left">Links</string>
+    <string name="right">Recht</string>
+    <string name="random">Zufällig</string>
+    <string name="ship_name">Name des Schiffes:</string>
+    <string name="crud_dial">CRUD Dial</string>
+    <string name="undo">Rückgängig machen</string>
+    <string name="undobar_sample_message">Aktion durchgeführt.</string>
+    <string name="maximum">Maximale Anzahl der Zifferblätter ist 21</string>
+</resources>

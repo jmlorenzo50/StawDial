@@ -1,0 +1,537 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ship_name" />
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:ems="10" 
+            >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>    
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#000000"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            >
+			
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1"
+                android:background="#FFFFFF"
+                android:text="" 
+                />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_left" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_half_left" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_forward" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_half_right" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_right" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_backward" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_swing" 
+                android:layout_weight = "1"
+                android:background="#FFFFFF"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="1" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"
+                />
+
+            <ImageView
+                android:id="@+id/dial1l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial1hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial1f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial1hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial1r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial1s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+        </TableRow>
+
+        
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="2" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial2l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial2hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial2f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial2hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial2r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial2s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>            
+
+        </TableRow>
+
+        
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="3" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial3l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial3hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial3f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial3hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial3r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial3s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>              
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="4" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial4l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial4hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial4f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial4hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial4r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial4s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>              
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="5" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial5l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial5hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial5hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial5r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial5s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>  
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="6" 
+                android:textColor="#FFFFFF"
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial6l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial6hl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+            
+            <ImageView
+                android:id="@+id/dial6f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial6hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial6r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>
+
+            <ImageView
+                android:id="@+id/dial6s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mov_none" 
+                android:layout_weight = "1"/>  
+        </TableRow>
+        
+        
+        
+	</TableLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageButton
+	        android:id="@+id/btnOk"
+	        android:onClick="accept"
+	        android:src="@drawable/btnok"
+	        android:contentDescription="@string/scandial"
+	        style="@style/boton"
+	     />
+        
+        <ImageButton
+	        android:id="@+id/btnCancel"
+	        android:onClick="cancel"
+	        android:src="@drawable/btncancel"
+	        android:contentDescription="@string/scandial"
+	        style="@style/boton"
+	     />
+        
+    </LinearLayout>
+
+</LinearLayout>
